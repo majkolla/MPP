@@ -1,0 +1,14 @@
+[project]
+name = "parallel-lib"
+version = "0.1.0"
+description = "A Python library for parallel programming with no GIL"
+authors = [
+  { name="Michael", email="michael.birtman@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+  "numpy",
+  "pytest"
+]
